@@ -23,6 +23,7 @@
 		A4D6EA541E11EED100C3A9B5 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D6EA531E11EED100C3A9B5 /* CircleView.swift */; };
 		A4D6EA561E122DCB00C3A9B5 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D6EA551E122DCB00C3A9B5 /* PostCell.swift */; };
 		A4D6EA591E12400300C3A9B5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D6EA581E12400300C3A9B5 /* DataService.swift */; };
+		A4D6EA5B1E12E41200C3A9B5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D6EA5A1E12E41200C3A9B5 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		A4D6EA531E11EED100C3A9B5 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		A4D6EA551E122DCB00C3A9B5 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		A4D6EA581E12400300C3A9B5 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A4D6EA5A1E12E41200C3A9B5 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		D0D6B39A92EF78E67BBFCBCA /* Pods-RickysSocialNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickysSocialNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RickysSocialNetwork/Pods-RickysSocialNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		FDDEF4A35161F30242B909F0 /* Pods-RickysSocialNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickysSocialNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-RickysSocialNetwork/Pods-RickysSocialNetwork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +132,7 @@
 		A4BFB0691E0EF96E002B2D98 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A4D6EA5A1E12E41200C3A9B5 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				A4D6EA541E11EED100C3A9B5 /* CircleView.swift in Sources */,
 				A4BFB0721E1066CA002B2D98 /* FancyField.swift in Sources */,
 				A4593CBD1E0EF5410036B27D /* SignInVC.swift in Sources */,
+				A4D6EA5B1E12E41200C3A9B5 /* Post.swift in Sources */,
 				A4BFB0701E106529002B2D98 /* RoundBtn.swift in Sources */,
 				A4593CBB1E0EF5410036B27D /* AppDelegate.swift in Sources */,
 				A4D6EA591E12400300C3A9B5 /* DataService.swift in Sources */,
