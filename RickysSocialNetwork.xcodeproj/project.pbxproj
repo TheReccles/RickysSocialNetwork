@@ -20,6 +20,7 @@
 		A4BFB0721E1066CA002B2D98 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BFB0711E1066CA002B2D98 /* FancyField.swift */; };
 		A4BFB0741E1067FF002B2D98 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BFB0731E1067FF002B2D98 /* FancyBtn.swift */; };
 		A4D6EA521E11D77000C3A9B5 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D6EA511E11D77000C3A9B5 /* FeedVC.swift */; };
+		A4D6EA541E11EED100C3A9B5 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D6EA531E11EED100C3A9B5 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		A4BFB0711E1066CA002B2D98 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		A4BFB0731E1067FF002B2D98 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		A4D6EA511E11D77000C3A9B5 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		A4D6EA531E11EED100C3A9B5 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		D0D6B39A92EF78E67BBFCBCA /* Pods-RickysSocialNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickysSocialNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RickysSocialNetwork/Pods-RickysSocialNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		FDDEF4A35161F30242B909F0 /* Pods-RickysSocialNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickysSocialNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-RickysSocialNetwork/Pods-RickysSocialNetwork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 				A4BFB06F1E106529002B2D98 /* RoundBtn.swift */,
 				A4BFB0711E1066CA002B2D98 /* FancyField.swift */,
 				A4BFB0731E1067FF002B2D98 /* FancyBtn.swift */,
+				A4D6EA531E11EED100C3A9B5 /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D6EA541E11EED100C3A9B5 /* CircleView.swift in Sources */,
 				A4BFB0721E1066CA002B2D98 /* FancyField.swift in Sources */,
 				A4593CBD1E0EF5410036B27D /* SignInVC.swift in Sources */,
 				A4BFB0701E106529002B2D98 /* RoundBtn.swift in Sources */,
