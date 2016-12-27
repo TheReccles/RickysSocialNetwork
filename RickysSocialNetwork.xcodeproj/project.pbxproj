@@ -22,6 +22,7 @@
 		A4D6EA521E11D77000C3A9B5 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D6EA511E11D77000C3A9B5 /* FeedVC.swift */; };
 		A4D6EA541E11EED100C3A9B5 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D6EA531E11EED100C3A9B5 /* CircleView.swift */; };
 		A4D6EA561E122DCB00C3A9B5 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D6EA551E122DCB00C3A9B5 /* PostCell.swift */; };
+		A4D6EA591E12400300C3A9B5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D6EA581E12400300C3A9B5 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		A4D6EA511E11D77000C3A9B5 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		A4D6EA531E11EED100C3A9B5 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		A4D6EA551E122DCB00C3A9B5 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		A4D6EA581E12400300C3A9B5 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		D0D6B39A92EF78E67BBFCBCA /* Pods-RickysSocialNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickysSocialNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RickysSocialNetwork/Pods-RickysSocialNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		FDDEF4A35161F30242B909F0 /* Pods-RickysSocialNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickysSocialNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-RickysSocialNetwork/Pods-RickysSocialNetwork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 		A4593CB91E0EF5410036B27D /* RickysSocialNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				A4D6EA571E123FE900C3A9B5 /* Services */,
 				A4BFB06C1E106203002B2D98 /* Util */,
 				A4BFB0691E0EF96E002B2D98 /* Model */,
 				A4BFB0681E0EF969002B2D98 /* View */,
@@ -137,6 +140,14 @@
 				A4BFB06D1E106213002B2D98 /* Constants.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		A4D6EA571E123FE900C3A9B5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A4D6EA581E12400300C3A9B5 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		D2AEDB62B0D4C623F1F157F8 /* Frameworks */ = {
@@ -277,6 +288,7 @@
 				A4593CBD1E0EF5410036B27D /* SignInVC.swift in Sources */,
 				A4BFB0701E106529002B2D98 /* RoundBtn.swift in Sources */,
 				A4593CBB1E0EF5410036B27D /* AppDelegate.swift in Sources */,
+				A4D6EA591E12400300C3A9B5 /* DataService.swift in Sources */,
 				A4D6EA521E11D77000C3A9B5 /* FeedVC.swift in Sources */,
 				A4BFB06B1E10611D002B2D98 /* FancyView.swift in Sources */,
 				A4BFB06E1E106213002B2D98 /* Constants.swift in Sources */,
