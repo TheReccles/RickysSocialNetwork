@@ -11,15 +11,20 @@ import Firebase
 
 //get database URL from GoogleService.plist
 let DB_BASE = FIRDatabase.database().reference()
+let STORAGE_BASE = FIRStorage.storage().reference()
 
 class DataService {
     
     //Singleton - instance of a class that is globally accessible
     static let ds = DataService()
     
+    //DB references
     private var _REF_BASE = DB_BASE
     private var _REF_POSTS = DB_BASE.child("posts")
     private var _REF_USERS = DB_BASE.child("users")
+    
+    //Storage references
+    private var _REF_POST_IMAGES = STORAGE_BASE.child("post-pics")
     
     //this is so no one else can access the private variables
     var REF_BASE: FIRDatabaseReference {
@@ -32,6 +37,10 @@ class DataService {
     
     var REF_USERS: FIRDatabaseReference {
         return _REF_USERS
+    }
+    
+    var REF_POST_IMAGES: FIRStorageReference {
+        return _REF_POST_IMAGES
     }
     
     //create A Firebase User's information
